@@ -1,9 +1,9 @@
 // css
-import './ExpenseItem.css';
+import '../Expenses/ExpenseItem.css';
 
 // components
-import ExpenseDate from './ExpenseDate';
-import Card from './Card';
+import ExpenseDate from '../Expenses/ExpenseDate';
+import Card from '../UI/Card';
 
 function ExpenseItem(props) {
     return (
